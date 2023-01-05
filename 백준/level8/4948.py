@@ -4,19 +4,13 @@ while(True):
     n = int(input())
     if n == 0:
         break
-    if n == 1:
-        print(1)
-        continue
-    
-    count = 0
-    for i in range(n + 1, n * 2 + 1):
-        check = True
-        for j in range(2, int(math.sqrt(i)) + 1):
-            if i % j == 0:
-                check = False
-                break
+
+    arr = [1] * (2 * n+1)
+    arr[0] = 0
+    arr[1] = 0
+
+    for i in range(2, int(math.sqrt(2*n)) + 1):
+        for j in range(i * 2, 2*n + 1, i):
+            arr[j] = 0
         
-        if check:
-            count += 1
-    
-    print(count)
+    print(sum(arr[n + 1::]))

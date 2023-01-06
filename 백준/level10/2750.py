@@ -1,5 +1,3 @@
-def
-
 n = int(input())
 
 arr = []

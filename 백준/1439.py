@@ -18,3 +18,4 @@ for i in range(len(s)):
             count_1 += 1
         
 print(min(count_1, count_0))
+

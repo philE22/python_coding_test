@@ -46,5 +46,7 @@ for i in range(1, n + 1):
                 heapq.heappush(q, (cost, j[0]))
 
     
-    distance = list(map(str, distance))
-    print(" ".join(distance[1:]) + " ")
+    distance = distance[1:]
+    for j in distance:
+        print(j, end=" ")
+    print()

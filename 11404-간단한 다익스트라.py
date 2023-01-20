@@ -25,7 +25,6 @@ def get_smallest_node():
             idx = i
     return idx
 
-result = []
 #i에서 j로 가는 경우 반복
 for i in range(1, n + 1):
     #최단거리 배열 초기화

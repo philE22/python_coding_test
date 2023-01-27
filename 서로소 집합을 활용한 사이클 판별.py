@@ -3,8 +3,6 @@ def find_parent(parent, x):
         parent[x] = find_parent(parent, parent[x])
     return x
 
-    
-    
 def union_parent(parent, a, b):
     a = find_parent(parent, a)
     b = find_parent(parent, b)
@@ -37,3 +35,5 @@ for i in range(e):
 print(parent)
 if cycle: print("사이클이 발생했습니다.")
 else: print("사이클이 발생하지 않았습니다.")
+
+#하지만 이렇게될 경우 확인하는 간선의 순서에 따라 사이클인지 아닌지가 달라진다.

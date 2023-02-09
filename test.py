@@ -1,3 +1,2 @@
-
-
-print(int(1.8))
+arr= [1, 2, 3, 4, 5]
+print(arr.pop())

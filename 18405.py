@@ -16,7 +16,6 @@ for i in range(N):
 virus_idx.sort(key = lambda x : x[0])
 q = deque(virus_idx)
 q.append('count')
-print(q)
 
 #바이러스가 퍼지는 메서드
 m = [(1, 0), (-1, 0), (0, 1), (0, -1)]
@@ -29,7 +28,6 @@ def virus(idx, arr, v):
             if arr[move_x][move_y] == 0:
                 arr[move_x][move_y] = v
                 q.append([v, (move_x, move_y)])
-
 
 #S초 동안 진행
 for _ in range(S):

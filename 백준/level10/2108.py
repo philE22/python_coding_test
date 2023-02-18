@@ -18,7 +18,7 @@ arr.sort()
 print(sum(arr) // n)
 
 #중앙값
-print(arr[len(arr)//2])
+print(arr[n//2])
 
 #최빈값
 most = max(times_arr)

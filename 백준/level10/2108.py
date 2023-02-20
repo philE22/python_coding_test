@@ -15,7 +15,7 @@ for _ in range(n):
 
 arr.sort()
 #산술평균
-print(sum(arr) // n)
+print(round(sum(arr)/n))
 
 #중앙값
 print(arr[n//2])

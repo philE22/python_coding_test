@@ -1,10 +1,9 @@
 import sys
-import heapq
-
 input = sys.stdin.readline
 
-n = int(input())
 arr = [0] * 10001
+n = int(input())
+
 for _ in range(n):
     arr[int(input())] += 1
     

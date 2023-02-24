@@ -1,6 +1,3 @@
-a = -32
-b = 12
+arr = [1,2,3,4]
 
-print(a/b)
-print(int(a / b))
-print(a // b)
+print(type(min(arr)))

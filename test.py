@@ -1,3 +1,8 @@
-arr = [1,2,3,4]
+li = 1
 
-print(type(min(arr)))
+def f():
+    li += 1
+
+print(li)
+f()
+print(li)

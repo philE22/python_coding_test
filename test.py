@@ -1,8 +1,5 @@
-li = 1
+dic = dict()
 
-def f():
-    li += 1
-
-print(li)
-f()
-print(li)
+dic['a'] = 1
+dic['a'] = 2
+print(dic)

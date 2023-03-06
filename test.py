@@ -1,5 +1,3 @@
-dic = dict()
-
-dic['a'] = 1
-dic['a'] = 2
-print(dic)
+li = [1,2,3]
+print(li.pop())
+print(li)

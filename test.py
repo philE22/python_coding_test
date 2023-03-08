@@ -1,3 +1,5 @@
-li = [1,2,3]
-print(li.pop())
-print(li)
+N, M = map(int, input().split())
+
+m = [list(map(int, input())) for _ in range(N)]
+
+print(m)

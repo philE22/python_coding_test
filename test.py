@@ -1,5 +1,4 @@
-N, M = map(int, input().split())
+list = [1,2,3,4]
 
-m = [list(map(int, input())) for _ in range(N)]
-
-print(m)
+list.remove(1,2)
+print(list)

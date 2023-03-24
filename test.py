@@ -1,2 +1,2 @@
-for i in range(5, 1, -1):
-    print(i)
+box = [0] * 5
+print(box)
